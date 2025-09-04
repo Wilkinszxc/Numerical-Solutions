@@ -6,9 +6,9 @@ These are solutions for Machine problems and Computer Problems for 3rd Year Nume
 2. MP2: TBA
 
 ## Computer Problems:
-1. CP3: 
-2. CP4: 
-3. CP8: 
-4. CP13: 
-5. CP16: 
-6. CP18: 
+1. CP3: Solves for a right triangle's Hypotenuse
+2. CP4: Solves for a triangle's area
+3. CP8: Returns Square, Square Root, 4th Power, and 4th Root of number 0 to 25
+4. CP13: TBA
+5. CP16: TBA
+6. CP18: TBA
