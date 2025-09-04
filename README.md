@@ -13,5 +13,5 @@ These are solutions for Machine problems and Computer Problems for 3rd Year Nume
 * 16: 
 * 18: 
 
-
+HELLO!?
 FIRST COMMIT!?
