@@ -2,8 +2,8 @@
 These are solutions for Machine problems and Computer Problems for 3rd Year Numerical Solutions BCE 315L 
 
 ## Machine Problems:
-1. Solves multiple quadratic equations.
-2. TBA
+1. MP1: Solves multiple quadratic equations.
+2. MP2: TBA
 
 ## Computer Problems:
 1. CP3: 
