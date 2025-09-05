@@ -1,5 +1,7 @@
 #include <iostream>
 #include <windows.h>
+#include <iomanip>
+#include <cmath>
 
 using namespace std;
 
@@ -9,25 +11,44 @@ COORD CursorPosition;
 int gotoxy(int x, int y);
 
 int main(){
+
+    double x, result, term;
+    int yPOS = 7;
+    char choice;
+
     cout << "Name: AL WILKINS BURGOS\n";
     cout << "BCE 315L (420)\n";
     cout << "CP13 - e^x Value Calculation\n\n";
 
-    double x, result;
-    cout << "Enter the value of x: ";
-    cin >> x;
+    cout << "+----------+--------------------+\n";
+    cout << "|    x     |        e^x         |\n";
+    cout << "+----------+--------------------+\n";
 
-    
- 
-    result = 1;
-    double term = 1;
-    for (int n = 1; n <= 20; n++) {
-        term *= x / n;
-        result += term;
+    for(int i = 1; i < 101; i++){
+        gotoxy(0, yPOS);
+        cout << "|          |                    |\n";
+        cout << "+----------+--------------------+\n";
+        cout << "                                 \n";
+        cout << "                                 \n";
+
+        gotoxy(6, yPOS);
+        cout << i;
+        gotoxy(18, yPOS);
+        cout << setprecision(4) << exp(i);
+        yPOS++;
+
+        gotoxy(0, yPOS + 2);
+        cout << "Do you want to continue? (y/n): ";
+        cin >> choice;
+
+        if(choice == 'N' || choice == 'n'){
+            break;
+        }
+
     }
 
-    cout << "e^" << x << " = " << result << endl;
-    cout << endl << endl << endl << endl;
+
+    cout << endl << endl;
     system("pause");
 
 }
