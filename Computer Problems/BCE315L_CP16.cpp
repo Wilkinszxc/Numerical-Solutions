@@ -11,6 +11,7 @@ int gotoxy(int x, int y);
 int main(){
     int integers[10];
     int sum = 0, largest, smallest;
+    char choice;
 
     cout << "Name: AL WILKINS BURGOS\n";
     cout << "BCE 315L (420)\n";
@@ -34,8 +35,7 @@ int main(){
     cout << "\nAverage: " << average << endl;
     cout << "Largest: " << largest << endl;
     cout << "Smallest: " << smallest << endl;
-
-
+    
 
     cout << endl << endl;
     system("pause");
