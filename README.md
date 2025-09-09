@@ -10,5 +10,5 @@ These are solutions for Machine problems and Computer Problems for 3rd Year Nume
 2. CP4: Solves for a triangle's area
 3. CP8: Returns Square, Square Root, 4th Power, and 4th Root of number 0 to 25
 4. CP13: Calculate e^x values 1 to 100, with user input.
-5. CP16: TBA
-6. CP18: TBA
+5. CP16: From input values, display Average, Largest, Smallest Number
+6. CP18: Multiply matrices from dimension inputs
