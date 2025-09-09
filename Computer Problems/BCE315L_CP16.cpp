@@ -48,9 +48,9 @@ int main(){
     gotoxy( 30, 11);
     cout << "+--------------+--------------+--------------+";
     
-    gotoxy(36, 9);
+    gotoxy(36, 9); 
     cout << average;
-    gotoxy(50, 9);
+    gotoxy(52, 9);
     cout << largest;
     gotoxy(68, 9);
     cout << smallest;
@@ -67,6 +67,7 @@ int main(){
         main();
     }
 
+    return 0;
 }
 
 
@@ -74,5 +75,4 @@ int gotoxy(int x, int y){
     CursorPosition.X = x;
     CursorPosition.Y = y;
     SetConsoleCursorPosition(console, CursorPosition);
-    return 0;
 }
