@@ -71,7 +71,8 @@ int main(){
 
 
 int gotoxy(int x, int y){
-	CursorPosition.X = x;
-	CursorPosition.Y = y;
-	SetConsoleCursorPosition(console, CursorPosition);
+    CursorPosition.X = x;
+    CursorPosition.Y = y;
+    SetConsoleCursorPosition(console, CursorPosition);
+    return 0;
 }
