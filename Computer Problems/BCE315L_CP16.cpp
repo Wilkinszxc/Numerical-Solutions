@@ -1,5 +1,6 @@
 #include <iostream>
 #include <windows.h>
+#include <iomanip>
 
 using namespace std;
 
@@ -32,13 +33,40 @@ int main(){
 
     double average = sum / 10.0;
 
-    cout << "\nAverage: " << average << endl;
-    cout << "Largest: " << largest << endl;
-    cout << "Smallest: " << smallest << endl;
+    gotoxy( 30, 5);
+    cout << "+--------------+--------------+--------------+";
+    gotoxy(30, 6);
+    cout << "|    Average   |    Largest   |   Smallest   |";
+    gotoxy(30, 7);
+    cout << "+--------------+--------------+--------------+";
+    gotoxy(30, 8);
+    cout << "|              |              |              |";
+    gotoxy(30, 9);
+    cout << "|              |              |              |";
+    gotoxy(30, 10);
+    cout << "|              |              |              |";
+    gotoxy( 30, 11);
+    cout << "+--------------+--------------+--------------+";
     
+    gotoxy(36, 9);
+    cout << average;
+    gotoxy(50, 9);
+    cout << largest;
+    gotoxy(68, 9);
+    cout << smallest;
 
-    cout << endl << endl;
-    system("pause");
+    gotoxy(0, 18);
+    cout << "Do you want to redo calculations? (y/n): ";
+    cin >> choice;
+
+    if(choice == 'N' || choice == 'n'){
+        system("pause");
+        return 0;
+    }else {
+        system("cls");
+        main();
+    }
+
 }
 
 
